@@ -1,0 +1,36 @@
+.chatroom {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    flex: 1;
+    height: 100vh;
+    background-color: red;
+}
+
+.content {
+    flex: 4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentHeader {
+    flex: 1;
+    background-color: blue;
+}
+
+.contentChatWindow {
+    flex: 6;
+    background-color: aquamarine;
+}
+
+.contentChatInput {
+    flex: 1;
+    background-color: bisque;
+}
+
+.contentChatWindowMessage {
+
+}
